@@ -27,19 +27,6 @@ img {
   height: auto;
 }
 
-.icon,
-.icon-footer {
-  fill: #4D5AE5;
-}
-
-.icon:hover {
-  fill: #404BBF;
-}
-
-.icon-footer:hover {
-  fill: #31D0AA;
-}
-
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -112,6 +99,8 @@ img {
   text-decoration: none;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-action {
@@ -134,7 +123,6 @@ img {
 
 .contacts-list {
   display: block;
-  padding: 24px 0;
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
@@ -146,6 +134,8 @@ img {
   text-decoration: none;
   color: #434455;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
@@ -202,6 +192,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -241,6 +232,11 @@ img {
   text-align: left;
   width: 264px;
   gap: 8px;
+}
+
+.icon:hover {
+  fill: #404BBF;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-benefits {
@@ -348,11 +344,12 @@ img {
   justify-content: center;
   background-color: #4d5ae5;
   border-radius: 50%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover {
   background-color: #404BBF;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-member {
@@ -462,7 +459,7 @@ img {
   width: 100%;
   height: 100%;
   transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-container:hover .hidden-text {
@@ -513,6 +510,11 @@ img {
   display: flex;
   gap: 16px;
   margin-top: 16px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-footer:hover {
+  fill: #31D0AA;
 }
 
 .social-link-footer {
@@ -523,6 +525,7 @@ img {
   width: 40px;
   height: 40px;
   background-color: #404bbf;
+  fill: #f4f4fd;
 }
 
 .social-link-footer:hover {
